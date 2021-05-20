@@ -20,9 +20,10 @@ class App extends Component {
       <Router>
         <Fragment>
           <div className="container">
-            <Nav />
+            
             {this.props.loading === true ? (<LoginPage></LoginPage>) : (
               <div>
+                <Nav />
                 <Route path="/" exact component={Home} />
                 <Route path="/leaderboard" component={LeaderBoardPage} />
                 <Route path="/newquestion" component={NewQuestions} />
