@@ -35,7 +35,7 @@ class PollResult extends Component {
             optionTwoVotes: questions[id][answerTwo].votes
         }))
         console.log(AuthUserChoice);
-        console.log(questions[id][answerOne].votes);
+        // console.log(questions[id][answerOne].votes);
     })
     
   }
